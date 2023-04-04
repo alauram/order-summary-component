@@ -16,14 +16,12 @@
 }
 
 body { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: url(./images/pattern-background-desktop.svg), #E1E9Ff;
     background-repeat: no-repeat, no-repeat;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh; 
-    flex-direction: column; 
-    font-family: 'Red Hat Display', sans-serif; 
+    min-height: 100vh;
 }
 .card{
     background-color: white;
