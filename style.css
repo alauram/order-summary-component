@@ -150,3 +150,29 @@ body {
 .cancel:hover {
     color: var(--Dark-blue);
 }
+@media screen and (max-width:375px){
+   .card {
+    width: 100%;
+   }
+   .text h1 {
+    padding: 10px;
+   }
+   .text p {
+    line-height: 1rem;
+    max-width: 100%;
+   }
+   .container img {
+   width: 30px;
+   height: 30px;
+   }
+   .left h2{
+    font-size: 0.925rem;
+    line-height: 0.8rem;
+   }
+   .left p {
+    font-size: 0.6rem;
+   }
+   .right {
+    font-size: 0.8rem;
+   }
+}
