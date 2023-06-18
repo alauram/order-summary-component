@@ -19,7 +19,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(./images/pattern-background-desktop.svg), #E1E9Ff;
+    background: url(./pattern-background-desktop.svg), #E1E9Ff;
     background-repeat: no-repeat, no-repeat;
     min-height: 100vh;
 }
